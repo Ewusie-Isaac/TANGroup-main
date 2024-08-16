@@ -18,16 +18,13 @@ const Navigation = () => {
   return (
     <header className="lg:mb-10">
       {/* <OtherSub /> */}
-      <div className="hidden  items-center justify-between gap-2 py-2 pr-10 lg:flex lg:bg-gray-10">
+      {/* <div className="hidden  items-center justify-between gap-2 py-2 pr-10 lg:flex lg:bg-gray-10">
         <OtherSub />
         <div className="flex items-center justify-end rounded-lg bg-purple-2 p-3 text-gray-10">
           <Link href="mailto:info@tanfreight.com">info@tanfreight.com</Link>
-          {/* <Link className="p-2 uppercase" href="mailto:info@tanfreight.com">
-            Request a quote
-          </Link> */}
         </div>
       </div>
-      <OtherSub1 />
+      <OtherSub1 /> */}
       <nav className="flexBetween max-container relative z-30 bg-purple-2 p-3  lg:px-2 3xl:px-0">
         <Link href="/tanfreight">
           <Image
