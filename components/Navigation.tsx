@@ -56,14 +56,23 @@ const Navigation = () => {
           <div className="regular-16 link flexCenter relative cursor-pointer pb-1.5  transition-all duration-75 hover:font-bold">
             EcoFarms
             <ul className="dropdrown flex flex-col gap-10 text-black">
-              <Link className="dropdrown-list" href="#">
-                001
+              <Link
+                className="dropdrown-list"
+                href="https://ecofarmsafrica.com/product/cashew-husk.php"
+              >
+                Cashew Husk
               </Link>
-              <Link className="dropdrown-list" href="#">
-                002
+              <Link
+                className="dropdrown-list"
+                href="https://ecofarmsafrica.com/product/palm-kernel-shell.php"
+              >
+                Palm Kernel Shell
               </Link>
-              <Link className="dropdrown-list" href="#">
-                003
+              <Link
+                className="dropdrown-list"
+                href="https://ecofarmsafrica.com/about.php"
+              >
+                About Ecofarms
               </Link>
             </ul>
           </div>
@@ -114,7 +123,7 @@ const Navigation = () => {
               Life Sciences
             </Link>
             <Link
-              href="#"
+              href="https://www.ecofarmsafrica.com/"
               className="regular-16 link flexCenter relative cursor-pointer pb-1.5 text-gray-50 transition-all duration-75 hover:font-bold"
             >
               EcoFarms
