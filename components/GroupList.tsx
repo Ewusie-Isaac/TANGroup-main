@@ -17,7 +17,9 @@ const GroupList = () => {
             height={100}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          <h3 className="mt-2 text-lg font-semibold">TAN Freight</h3>
+          <h3 className="mt-2 text-lg font-semibold">
+            TAN Freight and Logistics
+          </h3>
         </Link>
         <Link
           href="https://ecofarmsafrica.com/"
