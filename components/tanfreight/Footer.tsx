@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="padding padding-x padding-t max-container scroll-smooth bg-gray-200 pb-8 ">
       <div className="flex flex-wrap items-start justify-between gap-20 max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a href="/">
+          <a href="/tanfreight">
             <Image
               className=""
-              src="/tanlogo.png"
+              src="/freight/tanlogo.png"
               width={150}
               height={46}
               alt="tan company logo"
@@ -35,7 +35,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className=" flex  flex-wrap justify-between gap-20 text-gray-600  lg:gap-10">
+        <div className="flex flex-wrap justify-between gap-20 text-gray-600  lg:gap-10">
           {footerLinks.map((section) => (
             <div key={section.title}>
               <h4

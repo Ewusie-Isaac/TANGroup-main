@@ -58,7 +58,7 @@ const Header = () => {
         <div className="object-cover ">
           <Image
             className="w-full"
-            src="/main/main-4.webp"
+            src="/freight/main/main-4.webp"
             width={500}
             height={500}
             alt="tan"

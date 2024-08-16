@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="flex flex-col gap-5 p-5 lg:flex lg:flex-row">
         <div className="lg:w-2/5">
           <Image
-            src="/tanlogo.png"
-            alt="TanFreight Logo"
+            src="/tangroupe.png"
+            alt="tan group Logo"
             width={180}
             height={180}
           />

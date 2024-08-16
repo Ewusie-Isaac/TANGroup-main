@@ -14,7 +14,7 @@ const Process = () => {
         {/* <p className="regular-18 mx-auto -mt-1 mb-10 pl-4">
           REAL-TIME PACKAGE TRACKING
         </p> */}
-        <div className=" flex flex-col-reverse gap-3 max-md:mx-5 md:grid md:grid-cols-2 lg:gap-5">
+        <div className="flex flex-col-reverse gap-3 max-md:mx-5 md:grid md:grid-cols-2 lg:gap-5">
           {/* <div className="relative flex justify-center">
             <div className="relative flex flex-col gap-8 rounded-3xl bg-black px-7 py-8  max-md:mb-5 ">
               <div className="flex flex-col">

@@ -6,7 +6,12 @@ const SDG = () => {
       <div>
         <div className="p-4 text-gray-600">
           <div className="mb-4 flex flex-col items-center justify-center gap-8 lg:flex lg:flex-row">
-            <Image src="/main/goal-9.png" width={300} height={300} alt="tan" />
+            <Image
+              src="/freight/main/goal-9.png"
+              width={300}
+              height={300}
+              alt="tan"
+            />
             <ul>
               <h2 className="mb-3 text-xl font-bold">
                 INDUSTRY, INNOVATION AND INFRASTRUCTURE
@@ -31,7 +36,12 @@ const SDG = () => {
             </ul>
           </div>
           <div className="mb-4 flex flex-col items-center justify-center gap-8 bg-gray-200 p-3 lg:flex lg:flex-row">
-            <Image src="/main/goal-13.png" width={300} height={300} alt="tan" />
+            <Image
+              src="/freight/main/goal-13.png"
+              width={300}
+              height={300}
+              alt="tan"
+            />
             <ul>
               <h2 className="mb-3 text-xl font-bold">CLIMATE ACTION</h2>
               <p>
@@ -52,7 +62,12 @@ const SDG = () => {
             </ul>
           </div>
           <div className="mb-4 flex flex-col items-center justify-center gap-8 lg:flex lg:flex-row">
-            <Image src="/main/goal-17.png" width={300} height={300} alt="tan" />
+            <Image
+              src="/freight/main/goal-17.png"
+              width={300}
+              height={300}
+              alt="tan"
+            />
             <ul>
               <h2 className="mb-3 text-xl font-bold">
                 PARTNERSHIPS FOR THE GOALS

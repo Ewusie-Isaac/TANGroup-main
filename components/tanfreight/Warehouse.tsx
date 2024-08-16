@@ -27,7 +27,7 @@ const Warehouse = () => {
         width={910}
         height={510}
         alt="tan warehouse"
-        src="/home-2.jpg"
+        src="/freight/home-2.jpg"
       />
     </section>
   );

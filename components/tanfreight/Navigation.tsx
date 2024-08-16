@@ -29,9 +29,9 @@ const Navigation = () => {
       </div>
       <OtherSub1 />
       <nav className="flexBetween max-container relative z-30 bg-purple-2 p-3  lg:px-2 3xl:px-0">
-        <Link href="/">
+        <Link href="/tanfreight">
           <Image
-            src="/tanlogo.png"
+            src="/freight/tanlogo.png"
             alt="TanFreight Logo"
             width={84}
             height={42}

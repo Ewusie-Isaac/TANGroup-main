@@ -6,7 +6,7 @@ const SocialResp = () => {
     <section className="mt-10 scroll-smooth p-5">
       <div className="relative mb-10 flex flex-col items-center marker:justify-center">
         <Image
-          src="/tanlogo.png"
+          src="/freight/tanlogo.png"
           alt="tan logo"
           width={50}
           height={50}
@@ -28,7 +28,7 @@ const SocialResp = () => {
             width={40}
             height={40}
             className="h-[120px] w-[120px]"
-            src="/news/ecowas.jpg"
+            src="/freight/news/ecowas.jpg"
             alt="tan freight warehouse"
           />
           <div className="p-3 lg:p-8">
@@ -49,7 +49,7 @@ const SocialResp = () => {
             width={50}
             height={50}
             className="h-[120px] w-[120px] "
-            src="/news/exportact.jpg"
+            src="/freight/news/exportact.jpg"
             alt="tan freight warehouse"
           />
           <div className="p-3 lg:p-8">
@@ -70,7 +70,7 @@ const SocialResp = () => {
             width={80}
             height={80}
             className="h-[120px] w-[120px]"
-            src="/news/importt.jpg"
+            src="/freight/news/importt.jpg"
             alt="tan freight warehouse"
           />
           <div className="p-3 lg:p-8">

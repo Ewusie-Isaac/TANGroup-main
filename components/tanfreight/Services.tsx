@@ -14,7 +14,7 @@ const TanServices = () => {
               width={600}
               height={600}
               className="mb-5 w-full object-fill"
-              src="/main/ship-1.jpg"
+              src="/freight/main/ship-1.jpg"
               alt="Tan freight packing of goods"
             />
             <div className="flex flex-col justify-evenly">
@@ -209,7 +209,7 @@ const TanServices = () => {
               width={600}
               height={600}
               className="mb-5 object-center"
-              src="/main/landf-1.jpg"
+              src="/freight/main/landf-1.jpg"
               alt="Tan freight packing of goods"
             />
           </div>
@@ -221,7 +221,7 @@ const TanServices = () => {
               width={600}
               height={600}
               className="mb-5  object-center"
-              src="/main/airfreight.jpg"
+              src="/freight/main/airfreight.jpg"
               alt="Tan freight packing of goods"
             />
             <div className="flex flex-col justify-evenly">
@@ -345,7 +345,7 @@ const TanServices = () => {
               width={600}
               height={600}
               className="mb-5 object-center"
-              src="/main/contain.jpg"
+              src="/freight/main/contain.jpg"
               alt="Tan freight packing of goods"
             />
           </div>
@@ -357,7 +357,7 @@ const TanServices = () => {
               width={600}
               height={600}
               className="mb-5  object-center"
-              src="/warehouse.jpg"
+              src="/freight/warehouse.jpg"
               alt="Tan freight packing of goods"
             />
             <div className="flex flex-col justify-evenly">
@@ -477,7 +477,7 @@ const TanServices = () => {
               width={600}
               height={600}
               className="mb-5  object-center"
-              src="/main/pcargo.jpg"
+              src="/freight/main/pcargo.jpg"
               alt="Tan freight packing of goods"
             />
           </div>

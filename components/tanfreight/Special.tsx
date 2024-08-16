@@ -196,7 +196,7 @@ const Special = () => {
         <div className="relative flex flex-1 items-center justify-center bg-cover md:flex md:flex-col-reverse">
           <Image
             className="md:w-full"
-            src="/main/warehouse-2.jpg"
+            src="/freight/main/warehouse-2.jpg"
             alt="tan image"
             width={600}
             height={900}

@@ -13,7 +13,7 @@ const ManagementTeam = () => {
           <ul className="flex flex-col">
             <Link href="">
               <Image
-                src="/main/about.jpg"
+                src="/freight/main/about.jpg"
                 width={400}
                 height={400}
                 alt="tan stuff"
@@ -37,7 +37,7 @@ const ManagementTeam = () => {
           <ul className="flex flex-col">
             <Link href="">
               <Image
-                src="/main/about.jpg"
+                src="/freight/main/about.jpg"
                 width={400}
                 height={400}
                 alt="tan stuff"
@@ -68,7 +68,7 @@ const ManagementTeam = () => {
           <Link href="">
             <Link href="">
               <Image
-                src="/main/about.jpg"
+                src="/freight/main/about.jpg"
                 width={600}
                 height={600}
                 alt="tan stuff"
@@ -92,7 +92,7 @@ const ManagementTeam = () => {
           <Link href="">
             <Link href="">
               <Image
-                src="/main/about.jpg"
+                src="/freight/main/about.jpg"
                 width={600}
                 height={600}
                 alt="tan stuff"

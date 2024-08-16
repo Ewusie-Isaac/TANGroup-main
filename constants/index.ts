@@ -182,7 +182,7 @@ export const reviews = [
   // },
   {
     // imgURL: customer1,
-    imgURL: '/person-1.jpg',
+    imgURL: '/freight/person-1.jpg',
     customerName: 'Adu Kwasi Sarfo',
     rating: 5.0,
     feedback:
@@ -190,7 +190,7 @@ export const reviews = [
   },
   {
     // imgURL: customer2,
-    imgURL: '/person-2.jpg',
+    imgURL: '/freight/person-2.jpg',
     customerName: 'Stella Debrah',
     rating: 4.5,
     feedback:

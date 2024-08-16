@@ -12,7 +12,7 @@ const Partners = () => {
         <ul className="grid grid-flow-col-dense items-center justify-between gap-5 p-5">
           <li>
             <Image
-              src="/wiffa.png"
+              src="/freight/wiffa.png"
               height={90}
               width={90}
               alt="tan partner logo"
@@ -20,7 +20,7 @@ const Partners = () => {
           </li>
           <li>
             <Image
-              src="/giff.png"
+              src="/freight/giff.png"
               height={80}
               width={80}
               alt="tan partner logo"
@@ -28,7 +28,7 @@ const Partners = () => {
           </li>
           <li>
             <Image
-              src="/df.png"
+              src="/freight/df.png"
               height={80}
               width={80}
               alt="tan partner logo"
@@ -36,7 +36,7 @@ const Partners = () => {
           </li>
           <li>
             <Image
-              src="/jctrans.jpg"
+              src="/freight/jctrans.jpg"
               height={90}
               width={90}
               alt="tan partner logo"
@@ -44,7 +44,7 @@ const Partners = () => {
           </li>
           <li>
             <Image
-              src="/legend.png"
+              src="/freight/legend.png"
               height={81}
               width={80}
               alt="tan partner logo"
@@ -52,7 +52,7 @@ const Partners = () => {
           </li>
           <li>
             <Image
-              src="/global.png"
+              src="/freight/global.png"
               height={80}
               width={80}
               alt="tan partner logo"

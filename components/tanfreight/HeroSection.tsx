@@ -73,7 +73,7 @@ const HeroSection = () => {
       </div>
       <div>
         <Image
-          src="/main/mains.jpg"
+          src="/freight/main/mains.jpg"
           width={900}
           height={900}
           alt="hero-map"

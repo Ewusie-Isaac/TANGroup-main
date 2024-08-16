@@ -49,7 +49,7 @@ const HomeSection = () => {
         >
           <Image
             className="z-8 relative rounded-md object-contain shadow-lg"
-            src="/main/global-tan.png"
+            src="/freight/main/global-tan.png"
             alt="Tan freight packing of goods"
             width={400}
             height={300}
