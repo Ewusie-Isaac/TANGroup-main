@@ -17,7 +17,7 @@ const WhyTan = () => {
 
         <div className="relative p-5">
           <Image
-            src="/tanlogo.png"
+            src="/freight/tanlogo.png"
             alt="tan logo"
             width={50}
             height={50}

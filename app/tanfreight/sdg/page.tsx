@@ -13,7 +13,7 @@ const page = () => {
       <section className="mx-2 mt-8 lg:mx-4">
         <div className="relative mx-2 mb-8">
           <Image
-            src="/tanlogo.png"
+            src="/freight/tanlogo.png"
             alt="tan logo"
             width={50}
             height={50}

@@ -12,7 +12,7 @@ const Page = () => {
       <section className="padding padding-t max-containe px-8 pb-8 sm:px-8">
         <div className="relative mb-8">
           <Image
-            src="/tanlogo.png"
+            src="/freight/tanlogo.png"
             alt="tan logo"
             width={50}
             height={50}

@@ -18,7 +18,7 @@ const Services = () => {
           <div className="z-20 flex w-full flex-col ">
             <div className="relative  rounded-xl bg-gray-10/80 p-5">
               <Image
-                src="/tanlogo.png"
+                src="/freight/tanlogo.png"
                 alt="tan logo"
                 width={50}
                 height={50}

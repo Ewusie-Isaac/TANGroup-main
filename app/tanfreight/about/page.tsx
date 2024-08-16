@@ -13,7 +13,7 @@ const AboutUs = () => {
       <section className="max-containe pb-2 pt-4">
         <div className="relative mb-4 p-8">
           <Image
-            src="/tanlogo.png"
+            src="/freight/tanlogo.png"
             alt="tan logo"
             width={50}
             height={50}
