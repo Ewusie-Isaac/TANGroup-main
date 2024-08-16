@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.partners {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  color: #141313;
+
+  &::after,
+  &::before {
+    content: '';
+    height: 1px;
+    display: block;
+    background-color: currentColor;
+  }
+}
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(192, 13, 180);
+
+  &::before,
+  &::after {
+    content: '';
+    height: 3px;
+    display: block;
+    background-color: currentColor;
+  }
+}
+
+.lifescienceheader {
+  background-image: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 0.87) 0%,
+      rgba(255, 255, 255, 0.872) 50%,
+      transparent 50%,
+      transparent
+    ),
+    url('/main/lab-6.jpg');
+  // background-image: url('/main/lab.mp4');
+  background-size: cover;
+  background-position: center;
+}
+.lifes {
+  margin: 10rem 8rem;
+  display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+.life {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1.4rem;
+
+  &_img {
+    width: 4.5rem;
+    height: 4.5rem;
+    grid-row: 1 / span 2;
+  }
+  &_para {
+    font-size: 1rem;
+  }
+}
+.offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 5rem;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+}
+.feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem;
+}
+.process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 2rem;
+  & > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1.2rem;
+
+    box-shadow:
+      inset 0 -3em 3em rgba(247, 160, 238, 0.3),
+      0 0 0 2px white,
+      0.3em 0.3em 1em rgba(177, 78, 177, 0.6);
+  }
+}
+
+// .process-item {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: white;
+//   padding: 1.2rem;
+// }
+.svgicon {
+  fill: aqua;
+  // background-color: red;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 2rem;
+}
+.nav-head {
+  color: aliceblue;
+  // margin: 1rem;
+  background-image: linear-gradient(
+    270deg,
+    rgba(147, 20, 117, 0.87) 0%,
+    rgba(121, 64, 110, 0.872) 100%,
+    transparent 100%,
+    transparent
+  );
+}
+.nav-head-1 {
+  color: aliceblue;
+  // margin: 1rem;
+  background-image: linear-gradient(
+    270deg,
+    rgb(164, 98, 151) 0%,
+    #c75cc7de 100%,
+    transparent 100%,
+    transparent
+  );
+}
+///////////////scale//////////
+/// //////////////////////////
+.ani {
+  animation-name: infinteScale;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  // animation-direction: alternate;
+  animation-duration: 1s;
+}
+@keyframes infinteScale {
+  0% {
+    transform: scale(0.89);
+  }
+  30% {
+    transform: scale(0.96);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  // 70% {
+  //   transform: scale(1.09);
+  // }
+  // 85% {
+  //   transform: scale(1.1);
+  // }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.staffs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+}
+.f_first {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+  & > * {
+    justify-self: center;
+    align-self: center;
+  }
+}
+.news {
+  display: grid;
+  // grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+
+  // &_wrapper {
+  //   display: grid;
+  //   grid-template-columns: repeat(2, 1fr);
+  // }
+}
+
+.animate-1 {
+  animation: fadeIn 4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
