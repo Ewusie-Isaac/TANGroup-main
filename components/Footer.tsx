@@ -6,10 +6,11 @@ const Footer = () => {
       <div className="flex flex-col gap-5 p-5 lg:flex lg:flex-row">
         <div className="lg:w-2/5">
           <Image
+            className="mb-2 rounded-xl"
             src="/tangroupe.png"
             alt="tan group Logo"
-            width={180}
-            height={180}
+            width={110}
+            height={110}
           />
           <p>
             TAN Group of Companies is a diverse conglomerate operating in
