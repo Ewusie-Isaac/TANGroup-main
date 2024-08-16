@@ -20,7 +20,7 @@ const About = () => {
           alt="tan group of company image about tan group"
         /> */}
         <Image
-          className=""
+          className="rounded-md"
           src="/tangroup-4.jpg"
           width={800}
           height={800}
