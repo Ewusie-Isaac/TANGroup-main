@@ -20,7 +20,7 @@ const GroupList = () => {
           <h3 className="mt-2 text-lg font-semibold">TAN Freight</h3>
         </Link>
         <Link
-          href="/ecofarm"
+          href="https://ecofarmsafrica.com/"
           className="flex flex-col items-center justify-center"
         >
           <Image
@@ -45,10 +45,7 @@ const GroupList = () => {
           />
           <h3 className="mt-2 text-lg font-semibold">Valkem Engineering</h3>
         </Link>
-        <Link
-          href="/lifescience"
-          className="flex flex-col items-center justify-center"
-        >
+        <Link href="#" className="flex flex-col items-center justify-center">
           <Image
             src="/freight/tanlogo1.png"
             className="rounded-md bg-gray-100 p-3"
