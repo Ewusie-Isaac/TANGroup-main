@@ -26,7 +26,7 @@ const Navigation = () => {
             // href="#"
             className="regular-16 link flexCenter relative cursor-pointer pb-1.5 transition-all duration-75 hover:font-bold"
           >
-            TAN Freight
+            TAN Freight and Logistics
             <ul className="dropdrown flex flex-col gap-10 text-black">
               <Link className="dropdrown-list" href="/tanfreight/tanservices">
                 Our Freight Services
@@ -54,7 +54,7 @@ const Navigation = () => {
             </ul> */}
           </div>
           <div className="regular-16 link flexCenter relative cursor-pointer pb-1.5  transition-all duration-75 hover:font-bold">
-            EcoFarms
+            EcoFarms Africa
             <ul className="dropdrown flex flex-col gap-10 text-black">
               <Link
                 className="dropdrown-list"
