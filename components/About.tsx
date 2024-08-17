@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="my-4 flex flex-col gap-64 p-8 lg:grid lg:grid-cols-2 lg:gap-10">
+    <section className="my-4 flex flex-col gap-6 p-8 lg:grid lg:grid-cols-2 lg:gap-10">
       <div className="">
         {/* <Image
           className="absolute -left-[0.5rem] -top-10"

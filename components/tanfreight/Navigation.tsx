@@ -87,16 +87,6 @@ const Navigation = () => {
           </div>
         </div>
       )}
-
-      {/* <div>
-        <Image
-          width={32}
-          height={32}
-          src="/menu.svg"
-          alt="menu"
-          className="inline-block cursor-pointer lg:hidden"
-        />
-      </div> */}
     </header>
   );
 };
