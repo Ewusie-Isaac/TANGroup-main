@@ -11,28 +11,28 @@ const GroupList = () => {
           className="flex flex-col items-center justify-center"
         >
           <Image
-            src="/freight/tanlogo1.png"
+            src="/freight/tanlogo.png"
             className="rounded-md bg-gray-100 p-3"
-            width={100}
-            height={100}
+            width={160}
+            height={160}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          <h3 className="mt-2 text-lg font-semibold">
+          {/* <h3 className="mt-2 text-lg font-semibold">
             TAN Freight and Logistics
-          </h3>
+          </h3> */}
         </Link>
         <Link
           href="https://ecofarmsafrica.com/"
           className="flex flex-col items-center justify-center"
         >
           <Image
-            src="/farm/ecofarms.png"
-            className="rounded-md bg-gray-100 p-3"
+            src="/farm/logofarms.png"
+            className="mx-20 rounded-md bg-gray-100 p-3"
             width={100}
             height={100}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          <h3 className="mt-2 text-lg font-semibold">Ecofarms Africa</h3>
+          {/* <h3 className="mt-2 text-lg font-semibold">Ecofarms Africa</h3> */}
         </Link>
         <Link
           href="/valkem"
@@ -45,17 +45,17 @@ const GroupList = () => {
             height={550}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          <h3 className="mt-2 text-lg font-semibold">Valkem Engineering</h3>
+          {/* <h3 className="mt-2 text-lg font-semibold">Valkem Engineering</h3> */}
         </Link>
         <Link href="#" className="flex flex-col items-center justify-center">
           <Image
-            src="/freight/tanlogo1.png"
+            src="/life/Tsciences.jpg"
             className="rounded-md bg-gray-100 p-3"
-            width={100}
-            height={100}
+            width={180}
+            height={180}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          <h3 className="mt-2 text-lg font-semibold">TAN Life Sciences</h3>
+          {/* <h3 className="mt-2 text-lg font-semibold">TAN Life Sciences</h3> */}
         </Link>
       </div>
     </div>

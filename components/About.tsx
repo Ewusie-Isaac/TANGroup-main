@@ -1,7 +1,10 @@
+'use client';
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 
 const About = () => {
+  const [isReadMore, setReadMore] = useState(false);
+  const toggle = () => setReadMore(!isReadMore);
   return (
     <section className="my-4 flex flex-col gap-6 p-8 lg:grid lg:grid-cols-2 lg:gap-10">
       <div className="">
@@ -44,17 +47,25 @@ const About = () => {
           commitment to empower local farmers and contributing to the overall
           economic resilience of the region. Ecofarms Africa is not just about
           farming; it is about creating a sustainable future for generations to
-          come.
+          come
+          <span
+            onClick={() => setReadMore(!isReadMore)}
+            className="... ml-2 cursor-pointer truncate italic "
+          >
+            {isReadMore ? '' : 'read more...'}
+          </span>
         </p>
-        <p className="mt-4">
-          In the realm of life sciences and engineering, TAN Groupe is making
-          significant strides with Valkem Procurements. Our life sciences
-          division is dedicated to advancing healthcare solutions and Valkem
-          Procurements, on the other hand, focuses on offering innovative
-          engineering solutions that drive infrastructural development. The TAN
-          Groupe of Companies is not just a business entity; it is a catalyst
-          for change and development in West Africa.
-        </p>
+        {isReadMore && (
+          <p className="mt-4 transition-all">
+            In the realm of life sciences and engineering, TAN Groupe is making
+            significant strides with Valkem Procurements. Our life sciences
+            division is dedicated to advancing healthcare solutions and Valkem
+            Procurements, on the other hand, focuses on offering innovative
+            engineering solutions that drive infrastructural development. The
+            TAN Groupe of Companies is not just a business entity; it is a
+            catalyst for change and development in West Africa.
+          </p>
+        )}
       </div>
     </section>
   );
