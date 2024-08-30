@@ -11,29 +11,17 @@ const GroupList = () => {
           className="flex flex-col items-center justify-center"
         >
           <Image
-            src="/freight/tanlogo.png"
-            className="rounded-md bg-gray-100 p-3"
-            width={160}
-            height={160}
+            src="/freight/tanlogoi.png"
+            className="rounded-md bg-gray-100 p-1"
+            width={100}
+            height={100}
             alt="TAN Group of company TAN freight and Logistics"
           />
           {/* <h3 className="mt-2 text-lg font-semibold">
             TAN Freight and Logistics
           </h3> */}
         </Link>
-        <Link
-          href="https://ecofarmsafrica.com/"
-          className="flex flex-col items-center justify-center"
-        >
-          <Image
-            src="/farm/logofarms.png"
-            className="mx-20 rounded-md bg-gray-100 p-3"
-            width={100}
-            height={100}
-            alt="TAN Group of company TAN freight and Logistics"
-          />
-          {/* <h3 className="mt-2 text-lg font-semibold">Ecofarms Africa</h3> */}
-        </Link>
+
         <Link
           href="/valkem"
           className="flex flex-col items-center justify-center"
@@ -46,6 +34,19 @@ const GroupList = () => {
             alt="TAN Group of company TAN freight and Logistics"
           />
           {/* <h3 className="mt-2 text-lg font-semibold">Valkem Engineering</h3> */}
+        </Link>
+        <Link
+          href="https://ecofarmsafrica.com/"
+          className="m-1 flex flex-col items-center justify-center"
+        >
+          <Image
+            src="/farm/ecofarms.png"
+            className="mx-20 rounded-md bg-gray-100 p-3"
+            width={100}
+            height={100}
+            alt="TAN Group of company TAN freight and Logistics"
+          />
+          {/* <h3 className="mt-2 text-lg font-semibold">Ecofarms Africa</h3> */}
         </Link>
         <Link href="#" className="flex flex-col items-center justify-center">
           <Image

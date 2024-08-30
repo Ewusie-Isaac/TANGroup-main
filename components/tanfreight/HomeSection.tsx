@@ -36,7 +36,7 @@ const HomeSection = () => {
           </p>
           <Link
             type="button"
-            href="/tanservices"
+            href="/tanfreight/tanservices"
             className="flex items-center justify-center gap-2  border border-purple-2
              bg-purple-2 px-7 py-4 text-lg leading-none text-white hover:bg-purple-1"
           >

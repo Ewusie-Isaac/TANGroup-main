@@ -9,11 +9,14 @@ const HeroBanner = () => {
         <Navigation />
         <div className="lg:mb-42 mb-14 mt-5 lg:mt-10">
           <h1 className="text-center text-5xl font-bold">
-            TAN Group of Companies
+            TAN Groupe of Companies
           </h1>
-          <p className="mt-5 text-center text-lg">
-            TAN Groups is a community of people who are passionate about
-            technology and science.
+          {/* <p className="mt-5 text-center text-lg">
+            TAN Groupe is a community of people who are passionate about
+            technology and science.Innovate. Impact. Inspire.
+          </p> */}
+          <p className="mt-5 text-center text-3xl font-semibold text-gray-100">
+            Innovate. Impact. Inspire.
           </p>
           {/* <GroupList /> */}
         </div>

@@ -184,7 +184,7 @@ const Special = () => {
               <a>Cold Chain.</a>
             </li>
           </ul> */}
-          <Link className="w-button" href="/tanservices">
+          <Link className="w-button" href="/tanfreight/tanservices">
             {/* <Button
               type="email"
               title="Explore More of Services"

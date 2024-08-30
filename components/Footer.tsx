@@ -4,13 +4,14 @@ const Footer = () => {
   return (
     <section className="bg-slate-300 p-2 lg:p-8">
       <div className="flex flex-col justify-center gap-5 p-5 lg:flex lg:flex-row">
+        {/* <div className="lg:w-2/5"> */}
         <div className="lg:w-2/5">
           <Image
             className="mb-2 rounded-xl"
             src="/tangroupe.png"
             alt="tan group Logo"
-            width={110}
-            height={110}
+            width={100}
+            height={100}
           />
           <p>
             TAN Group of Companies is a diverse conglomerate operating in
@@ -45,7 +46,10 @@ const Footer = () => {
               <a href="#">Oil and Gas Industry</a>
             </li>
             <li>
-              <a href="#">Renewable Energy Petrochemical Refinery</a>
+              <a href="#">Renewable Energy</a>
+            </li>
+            <li>
+              <a href="#">Petrochemical Refinery</a>
             </li>
             <li>
               <a href="#">Powership Building Marine</a>
@@ -76,7 +80,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="my-5 pt-5 text-center">
+      <p className="my-5 text-center">
         &copy; {new Date().getFullYear()} all right reveseved - TAN Group of
         Company
       </p>
