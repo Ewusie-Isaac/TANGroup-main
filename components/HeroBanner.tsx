@@ -9,7 +9,7 @@ const HeroBanner = () => {
         <Navigation />
         <div className="lg:mb-42 mb-14 mt-5 lg:mt-10">
           <h1 className="text-center text-5xl font-bold">
-            TAN Groupe of Companies
+           TAN Groupe Global
           </h1>
           {/* <p className="mt-5 text-center text-lg">
             TAN Groupe is a community of people who are passionate about
