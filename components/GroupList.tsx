@@ -17,9 +17,9 @@ const GroupList = () => {
             height={100}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          {/* <h3 className="mt-2 text-lg font-semibold">
+          <h3 className="mt-2 text-lg font-semibold">
             TAN Freight and Logistics
-          </h3> */}
+          </h3>
         </Link>
 
         <Link
@@ -33,7 +33,7 @@ const GroupList = () => {
             height={550}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          {/* <h3 className="mt-2 text-lg font-semibold">Valkem Engineering</h3> */}
+          <h3 className="mt-2 text-lg font-semibold">Valkem Engineering</h3>
         </Link>
         <Link
           href="https://ecofarmsafrica.com/"
@@ -46,7 +46,7 @@ const GroupList = () => {
             height={100}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          {/* <h3 className="mt-2 text-lg font-semibold">Ecofarms Africa</h3> */}
+          <h3 className="mt-2 text-lg font-semibold">Ecofarms Africa</h3>
         </Link>
         <Link href="#" className="flex flex-col items-center justify-center">
           <Image
@@ -56,7 +56,7 @@ const GroupList = () => {
             height={180}
             alt="TAN Group of company TAN freight and Logistics"
           />
-          {/* <h3 className="mt-2 text-lg font-semibold">TAN Life Sciences</h3> */}
+          <h3 className="mt-2 text-lg font-semibold">TAN Life Sciences</h3>
         </Link>
       </div>
     </div>
