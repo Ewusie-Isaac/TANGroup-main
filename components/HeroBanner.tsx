@@ -8,7 +8,7 @@ const HeroBanner = () => {
       <header className="tangroup">
         <Navigation />
         <div className="lg:mb-42 mb-14 mt-5 lg:mt-10">
-          <h1 className="text-center text-5xl font-bold">
+          <h1 className="text-center text-5xl uppercase font-bold">
           TAN Groupe Global
           </h1>
           {/* <p className="mt-5 text-center text-lg">
